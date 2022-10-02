@@ -6,6 +6,10 @@ import TaskListComponent from './components/container/task.list';
 
 
 import ContactoA from './components/container/contactoA';
+import Ejemplo1 from './hooks/Ejemplo1';
+import Ejemplo3 from './hooks/Ejemplo3';
+import MiComponenteConContexto from './hooks/Ejemplo3';
+import { Ejemplo4 } from './hooks/Ejemplo4';
 
 function App() {
   return (
@@ -15,7 +19,9 @@ function App() {
        {/*<Greeting name={' Emi'}/>*/ } 
        {/*<GreetinfF name="Martin"/>*/}
        {/*<TaskListComponent/>*/}
-       <ContactoA/>
+       {/*<ContactoA/>*/}
+       {/*<MiComponenteConContexto/>*/}
+       <Ejemplo4 nombre=" Emiliano"/>
       </header>
     </div>
   );
