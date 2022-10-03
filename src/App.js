@@ -10,6 +10,8 @@ import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo3 from './hooks/Ejemplo3';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import { Ejemplo4 } from './hooks/Ejemplo4';
+import GreetingStyled from './components/pure/greetingStyled';
+import Clock from './Ejercicio6/components/clock';
 
 function App() {
   return (
@@ -18,10 +20,12 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
        {/*<Greeting name={' Emi'}/>*/ } 
        {/*<GreetinfF name="Martin"/>*/}
-       {/*<TaskListComponent/>*/}
+      {/*<TaskListComponent/>*/}
        {/*<ContactoA/>*/}
        {/*<MiComponenteConContexto/>*/}
-       <Ejemplo4 nombre=" Emiliano"/>
+       {/* <Ejemplo4 nombre=" Emiliano"/>*/}
+       {/*<GreetingStyled name= 'Emi'/>*/}
+       <Clock/>
       </header>
     </div>
   );
