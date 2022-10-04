@@ -11,22 +11,27 @@ import Ejemplo3 from './hooks/Ejemplo3';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import { Ejemplo4 } from './hooks/Ejemplo4';
 import GreetingStyled from './components/pure/greetingStyled';
-import Clock from './Ejercicio6/components/clock';
+import Clock from './Ejercicios/Ejercicio6/clock';
+import { Father } from './components/container/father';
+import AppContact from './Ejercicios/Ejercicio9/AppContact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+   
+       
        {/*<Greeting name={' Emi'}/>*/ } 
        {/*<GreetinfF name="Martin"/>*/}
-      {/*<TaskListComponent/>*/}
        {/*<ContactoA/>*/}
        {/*<MiComponenteConContexto/>*/}
        {/* <Ejemplo4 nombre=" Emiliano"/>*/}
        {/*<GreetingStyled name= 'Emi'/>*/}
-       <Clock/>
-      </header>
+       {/*<Clock/>*/}
+       <AppContact/>
+
+      {/*<TaskListComponent/>*/}
+
+      {/*<Father/>*/}
     </div>
   );
 }
